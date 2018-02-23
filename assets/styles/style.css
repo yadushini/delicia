@@ -1,0 +1,104 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Header-navbar section */
+.navbar{
+    overflow: hidden;
+    background-color:#3005054f;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+.navbar a{
+    float: right;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+  
+.navbar a:hover{
+    background:#7c00002e;
+    color:#ff5555;
+}
+
+
+/* Heading section */
+.heading-box{
+    background:
+    linear-gradient(        
+        rgba(255, 129, 129, 0.46),         
+        rgba(0, 0, 0, 0.76)),         
+        url(../images/home/heading-box.jpg) no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+
+.heading-box h1{
+    color: #ffffff;
+    /* font-size: 40vw; */
+    font-size: 350px;
+    text-align: center;
+    /* margin-top: 52px; */
+    padding-top: 230px;
+    font-family: parchment;
+    font-weight: lighter;
+}
+
+
+/* Welcome section */
+.welcome-box{
+    background-color: #1e1b29;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.welcome-box h2{
+    margin: 0px;
+    padding-top: 300px;
+    font-size: 50px;
+    color: #5ce0b6;
+    text-align: center;
+}
+
+.welcome-box p{
+    margin: 0px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+    color: #6b9b8c;
+    text-align: center;
+}
+
+
+/* About section */
+.about-box{
+    background-image: 
+    linear-gradient(
+        rgba(255, 129, 129, 0.46),         
+        rgba(0, 0, 0, 0.76)), 
+        url(../images/home/about-us.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-box h2{
+    margin: 0px;
+    padding-top: 300px;
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+}
+
+

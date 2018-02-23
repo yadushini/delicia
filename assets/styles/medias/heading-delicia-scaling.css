@@ -1,0 +1,84 @@
+
+@media screen and (max-width: 850px){
+    .heading-box h1{
+        font-size: 290px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .heading-box h1{
+        font-size: 280px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .heading-box h1{
+        font-size: 270px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .heading-box h1{
+        font-size: 260px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .heading-box h1{
+        font-size: 250px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .heading-box h1{
+        font-size: 240px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .heading-box h1{
+        font-size: 230px;
+    }
+}
+
+@media screen and (max-width: 430px){
+    .heading-box h1{
+        font-size: 220px;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .heading-box h1{
+        font-size: 210px;
+    }
+}
+
+@media screen and (max-width: 410px){
+    .heading-box h1{
+        font-size: 200px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .heading-box h1{
+        font-size: 180px;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .heading-box h1{
+        font-size: 170px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .heading-box h1{
+        font-size: 160px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .heading-box h1{
+        font-size: 150px;
+    }
+}
