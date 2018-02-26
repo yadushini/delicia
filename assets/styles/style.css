@@ -110,3 +110,14 @@ html, body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.picture{
+    margin: 5px;
+    float: left;
+    width: 250px;
+}
+
+.picture img{
+    width: 100%;
+    height: auto;
+}
