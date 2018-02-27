@@ -111,13 +111,12 @@ html, body{
     background-size: cover;
 }
 
-.picture{
+.pictures{
     margin: 5px;
     float: left;
-    width: 250px;
 }
 
-.picture img{
-    width: 100%;
-    height: auto;
+.pictures img{
+    width: 100% !important;
+    height: auto !important;
 }
