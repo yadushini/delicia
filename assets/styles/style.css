@@ -5,15 +5,17 @@ html, body{
 
 
 /* Header-navbar section */
-.navbar{
+.my-navbar{
     overflow: hidden;
     background-color:#3005054f;
     position: fixed;
     top: 0;
     width: 100%;
+    display: block;
+    z-index: 10;
 }
   
-.navbar a{
+.my-navbar a{
     float: right;
     display: block;
     color: #ffffff;
@@ -23,14 +25,14 @@ html, body{
     font-size: 18px;
 }
   
-.navbar a:hover{
+.my-navbar a:hover{
     background:#7c00002e;
     color:#ff5555;
 }
 
 
 /* Heading section */
-.heading-background{
+.my-heading-background{
     background:
     linear-gradient(        
         rgba(255, 129, 129, 0.46),         
@@ -40,28 +42,27 @@ html, body{
     height: 100%;
 }
 
-.heading-background h1{
+.my-heading-background h1{
     color: #ee5d5d;
-    /* font-size: 40vw; */
     font-size: 350px;
     text-align: center;
-    /* margin-top: 52px; */
-    padding-top: 230px;
     font-family: parchment;
     font-weight: lighter;
+    width: 100%;
 }
 
 
 /* Welcome section */
-.welcome-background{
+.my-welcome-background{
     background-color: #1e1b29;
     height: 100%;
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.welcome-background h2{
+.my-welcome-background h2{
     margin: 0px;
     padding-top: 300px;
     font-size: 50px;
@@ -69,7 +70,7 @@ html, body{
     text-align: center;
 }
 
-.welcome-background p{
+.my-welcome-background p{
     margin: 0px;
     padding-top: 10px;
     padding-left: 40px;
@@ -81,19 +82,20 @@ html, body{
 
 
 /* About section */
-.about-background{
+.my-about-background{
     background-image: 
     linear-gradient(
         rgba(255, 129, 129, 0.46),         
         rgba(0, 0, 0, 0.76)), 
         url(../images/home/about-us.jpg);
     height: 100%;
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.about-background h2{
+.my-about-background h2{
     margin: 0px;
     padding-top: 300px;
     font-size: 50px;
@@ -103,20 +105,19 @@ html, body{
 
 
 /* Sample-images-section */
-.sample-images-background{
+.my-sample-images-background{
     background-color: #1e1b29;
-    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.pictures{
+.my-pictures{
     margin: 3px;
     float: left;
 }
 
-.pictures img{
+.my-pictures img{
     width: 100% !important;
     height: auto !important;
 }
