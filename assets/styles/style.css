@@ -51,6 +51,10 @@ html, body{
     width: 100%;
 }
 
+/* welcome & About */
+.alignselfcenter{
+    width:100%;
+}
 
 /* Welcome section */
 .my-welcome-background{
@@ -62,7 +66,6 @@ html, body{
 }
 
 .my-welcome-background h2{
-    margin: 0px;
     font-size: 50px;
     color: #5ce0b6;
     text-align: center;
@@ -70,13 +73,13 @@ html, body{
 }
 
 .my-welcome-background p{
-    margin: 0px;
     padding-top: 10px;
     padding-left: 40px;
     padding-right: 40px;
     font-size: 20px;
     color: #6b9b8c;
     text-align: center;
+    width:100%;
 }
 
 
@@ -88,18 +91,16 @@ html, body{
         rgba(0, 0, 0, 0.76)), 
         url(../images/home/about-us.jpg);
     height: 100%;
-    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .my-about-background h2{
-    margin: 0px;
-    padding-top: 300px;
     font-size: 50px;
     color: #ffffff;
     text-align: center;
+    width:100%
 }
 
 
