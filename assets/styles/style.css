@@ -43,10 +43,10 @@ html, body{
 }
 
 .my-heading-background h1{
+    font-family: 'Lobster', cursive;
     color: #ee5d5d;
     font-size: 350px;
     text-align: center;
-    font-family: parchment;
     font-weight: lighter;
     width: 100%;
 }
