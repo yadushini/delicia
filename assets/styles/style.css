@@ -36,6 +36,11 @@ html, body{
     color:#ff5555;
 }
 
+.my-navbar a.my-brand{
+    color: #ee5d5d;
+    float: left;
+}
+
 
 /* Heading section */
 .my-heading-background{
