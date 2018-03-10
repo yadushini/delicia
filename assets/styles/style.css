@@ -3,6 +3,12 @@ html, body{
     padding: 0px;
 }
 
+@font-face {
+    font-family: 'font-parchment';
+    src: url(../fonts/parchment.woff) format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+     url(../fonts/parchment.ttf) format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  }  
+
 
 /* Header-navbar section */
 .my-navbar{
@@ -43,7 +49,7 @@ html, body{
 }
 
 .my-heading-background h1{
-    font-family: 'Emilys Candy', cursive;
+    font-family: 'font-parchment', cursive;
     color: #ee5d5d;
     font-size: 350px;
     text-align: center;
