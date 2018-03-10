@@ -39,6 +39,8 @@ html, body{
 .my-navbar a.my-brand{
     color: #ee5d5d;
     float: left;
+    font-family: 'Meddon', cursive;
+    /* font-family: 'El Messiri', sans-serif; */
 }
 
 
