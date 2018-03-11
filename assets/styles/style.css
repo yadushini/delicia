@@ -29,6 +29,8 @@ html, body{
     padding: 16px;
     text-decoration: none;
     font-size: 18px;
+    font-family: 'Berkshire Swash', cursive;
+    font-weight: lighter;
 }
   
 .my-navbar a:hover{
