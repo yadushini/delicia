@@ -20,7 +20,27 @@ html, body{
     display: block;
     z-index: 10;
 }
-  
+
+.my-navbar a.my-menu-icon{
+    display: none;
+    font-size: 20px;
+}
+
+.fas.fa-bars{
+    line-height: inherit;
+}
+
+/* media for menu bar for small screens */
+@media screen and (max-width: 600px){
+    .my-navbar a.my-menu{
+        display: none;
+    }
+    .my-navbar a.my-menu-icon{
+        display: block;
+    }
+}
+
+
 .my-navbar a{
     float: right;
     display: block;
