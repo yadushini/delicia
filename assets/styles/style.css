@@ -44,6 +44,10 @@ html, body{
     font-family: 'Meddon', cursive;
 }
 
+.my-navbar a.my-brand:hover{
+    background-color: transparent;
+}
+
 
 /* Heading section */
 .my-heading-background{
